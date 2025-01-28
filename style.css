@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     body {
         background-color: #ff0000;
     }
@@ -9,10 +9,16 @@
         background-color: #000000;
         color: #ffffff;
     }
+} */
+
+.child {
+    height: 300px;
+    color: black;
+    margin: 0rem 10rem;
 }
 
-@media (max-width: 1000px) {
-    body {
-        background-color: #ff0000;
+@media (max-width: 800px) {
+    .child {
+        margin: 0px;
     }
 }
